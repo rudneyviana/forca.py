@@ -50,7 +50,7 @@ O projeto tem foco educacional, ideal para praticar **lógica de programação**
 
 * `desenhar_forca()` → desenha a forca conforme os erros
 * `jogar_forca()` → controla toda a lógica do jogo
-* Loop principal permite jogar novamente ao final
+* `iniciar_jogo()` → loop principal permite jogar novamente ao final
 
 ## 📚 Objetivo do projeto
 
