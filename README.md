@@ -3,6 +3,8 @@
 Este é um jogo da **Forca** desenvolvido em **Python**, executado diretamente no terminal.
 O projeto tem foco educacional, ideal para praticar **lógica de programação**, **listas**, **strings**, **loops** e **funções**.
 
+![Preview Image](./.github\preview.png)
+
 ## 🧠 Como funciona
 
 * Uma palavra é escolhida aleatoriamente de uma lista interna.
@@ -19,21 +21,21 @@ O projeto tem foco educacional, ideal para praticar **lógica de programação**
 
 1. Clone o repositório:
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
 
 2. Entre na pasta do projeto:
 
-```bash
-cd seu-repositorio
-```
+    ```bash
+    cd seu-repositorio
+    ```
 
 3. Execute o jogo:
 
-```bash
-python forca.py
-```
+    ```bash
+    python forca.py
+    ```
 
 > ⚠️ Use `python3` caso seu sistema utilize essa versão por padrão.
 
