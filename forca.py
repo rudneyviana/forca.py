@@ -265,10 +265,14 @@ def jogar_forca():
             break
 
 # Pede se o jogador quer jogar novamente
-if __name__ == "__main__":
+def iniciar_jogo():
     while True:
         jogar_forca()
         jogar_novamente = input("\nDeseja jogar novamente? (S/N): ").strip().upper()
+        
         if jogar_novamente != "S":
             print("\nObrigado por jogar! Até mais!")
             break
+
+if __name__ == "__main__":
+    iniciar_jogo()
