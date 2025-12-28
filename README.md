@@ -3,7 +3,7 @@
 Este é um jogo da **Forca** desenvolvido em **Python**, executado diretamente no terminal.
 O projeto tem foco educacional, ideal para praticar **lógica de programação**, **listas**, **strings**, **loops** e **funções**.
 
-![Preview Image](./.github\preview.png)
+![Preview Image](./.github/preview.png)
 
 ## 🧠 Como funciona
 
