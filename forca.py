@@ -264,13 +264,18 @@ def jogar_forca():
             print(f"A palavra era: {palavra_secreta}")
             break
 
-# Pede se o jogador quer jogar novamente
+# Solicita se o jogador deseja jogar novamente
 def iniciar_jogo():
     while True:
         jogar_forca()
-        jogar_novamente = input("\nDeseja jogar novamente? (S/N): ").strip().upper()
         
-        if jogar_novamente != "S":
+        while True:
+            jogar_novamente = input("\nDeseja jogar novamente? (S/N): ").strip().upper()
+            if jogar_novamente in ("S", "N"):
+                break
+            print("Entrada inválida. Digite S ou N.")
+        
+        if jogar_novamente == "N":
             print("\nObrigado por jogar! Até mais!")
             break
 
