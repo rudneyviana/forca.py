@@ -22,13 +22,13 @@ O projeto tem foco educacional, ideal para praticar **lógica de programação**
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/rudneyviana/forca.py.git
     ```
 
 2. Entre na pasta do projeto:
 
     ```bash
-    cd seu-repositorio
+    cd forca.py
     ```
 
 3. Execute o jogo:
